@@ -15,4 +15,4 @@ if [ ! -d "$directory" ]; then
 fi 
 
 # Find files and print the result
-find "$directory" -type f -name "*.$extension"
+find "$directory" -type f -name "*.$extension"+++++++++
