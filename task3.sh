@@ -18,6 +18,11 @@ fi
 path="$1"
 ext="$2"
 
+if [ ! -d "$path" ]; then
+        echo "Path \"$path\" does not exist!"
+        exit 1
+fi
+
 cat << EOF
 Count files with extension "$ext" in "$path": \
 $(\
