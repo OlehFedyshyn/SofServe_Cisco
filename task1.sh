@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Provide permission for script
-chmod +x task1.sh
-
 # Provide 2 args for directory and file
 directory="$1"
 extension="$2"
