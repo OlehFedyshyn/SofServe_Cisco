@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Provide permission for script
+chmod +x script.sh
+
 # Provide 2 args for directory and file
 directory="$1"
 extension="$2"
@@ -15,4 +18,4 @@ if [ ! -d "$directory" ]; then
 fi 
 
 # Find files and print the result
-find "$directory" -type f -name "*.$extension"+++++++++
+find "$directory" -type f -name "*.$extension"
